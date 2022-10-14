@@ -1,0 +1,178 @@
+body {
+    color: #40514e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.mountain-img {
+    width: 40%;
+}
+
+.top-cloud {
+    left: 220px;
+    padding-top: 8px;
+    position: relative;
+    top: 50px;
+    width: 10%;
+}
+
+.bottom-cloud {
+    bottom: 5%;
+    left: 9%;
+    padding-bottom: 10%;
+    position: relative;
+    width: 10%;
+}
+
+h1 {
+    color: #30475E;
+    font-family: 'Mali', cursive;
+    font-size: 400%;
+    line-height: 4rem;
+    margin: 35px auto 0 auto;
+    position: relative;
+}
+
+h2 {
+    font-size: 130%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-container h2 {
+    color: #30475E;
+}
+
+.middle-container h2 {
+    color: #30475E;
+    font-size: 150%;
+    font-weight: normal;
+}
+
+.bottom-container h2 {
+    color: #D0E8F2;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 110%;
+    color: #79A3B1;
+}
+
+.profile p {
+    font-size: 95%;
+    line-height: 2;
+    margin: auto;
+    width: 55%;
+}
+
+.bottom-container p {
+    color: #222831;
+}
+
+a {
+    color: #D0E8F2;
+    font-size: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #79A3B1;
+}
+
+hr {
+    border-bottom: none;
+    border-top: 10px dotted #F05454;
+    clear: both;
+    width: 5%;
+}
+
+.btn {
+    background-image: linear-gradient(#79A3B1, #30475E);
+    border: none;
+    border-radius: 8%;
+    color: #D0E8F2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 125%;
+    padding: 0.75%;
+}
+
+.btn:hover {
+    background-image: linear-gradient(#61838f, #30475E);
+}
+
+.top-container {
+    background-color: #79A3B1;
+}
+
+.profile {
+    align-items: center;
+    margin: auto;
+    padding: 2%;
+    width: 100%;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 20%;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: auto;
+    padding: 2%;
+    size: 50%;
+    text-align: left;
+    margin-bottom: 5%;
+    width: 50%;
+}
+
+.skill-one {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    width: 30%;
+}
+
+.skill-two {
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    width: 30%;
+
+}
+
+.middle-container {
+    background-color: #D0E8F2;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+
+.bottom-container {
+    background-color: #456268;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.copyright {
+    font-size: 90%;
+}
+
+@media (max-width: 750px) {
+    .profile {
+        width: 100%;
+    }
+    .profile-img {
+        width: 30%;
+    }
+    .skill-row {
+            width: 80%;
+    }
+
+}
